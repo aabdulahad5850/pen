@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen.akh</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/176/176318.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="box63" id="box63">
+        <div class="box64">
+            <div class="box3">
+                <i class="fa-solid fa-pen-nib"></i>
+                <span>PEN WORLD</span>
+            </div>
+            <h2 class="box65">Xush kelibsiz</h2>
+            <div class="box66">
+                <input type="text" id="box67_user" placeholder="Login (1234)" class="box50">
+                <input type="password" id="box67_pass" placeholder="Parol (1234)" class="box50">
+                <p class="box68" id="box68_error"></p>
+                <button class="box13" id="box13_login">Kirish</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="box69" id="box69">
+
+        <div class="box1" id="box1">
+            <div class="box2">
+                <div class="box3">
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <span>PEN</span>
+                </div>
+                <div class="box4">
+                    <a href="#box6">Bosh sahifa</a>
+                    <a href="#box14">Afzalliklar</a>
+                    <a href="#box23">Mahsulotlar</a>
+                    <a href="#box34">Dizayn</a>
+                    <a href="#box77">Mijozlar</a>
+                    <a href="#box85">Savollar</a>
+                    <a href="#box44">Aloqa</a>
+                </div>
+                <div class="box5" style="display: flex; gap: 12px;">
+                    <button class="box33" id="box33_wish_toggle">
+                        <i class="fa-solid fa-heart"></i>
+                        <span id="wish_count">Likes (0)</span>
+                    </button>
+                    <button class="box33" id="box33_cart_toggle">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span id="cart_count">Savatcha (0)</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="box75_cart" id="box75_wish">
+            <div class="box75_header">
+                <h3>Yoqgan Ruchkalar</h3>
+                <button id="box75_close_wish"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="box75_body" id="wish_items_container">
+                <p class="empty_cart_text">Yoqgan ruchkalar yo'q</p>
+            </div>
+        </div>
+
+        <div class="box75_cart" id="box75_cart">
+            <div class="box75_header">
+                <h3>Tanlangan Mahsulotlar</h3>
+                <button id="box75_close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="box75_body" id="cart_items_container">
+                <p class="empty_cart_text">Savatchangiz bo'sh</p>
+            </div>
+            <div class="box75_footer">
+                <div class="cart_total_row">
+                    <span>Jami:</span>
+                    <span id="cart_total_price">$0</span>
+                </div>
+                <button class="box13" id="box13_checkout">Zakas qilish</button>
+            </div>
+        </div>
+        <div class="box75_overlay" id="box75_overlay"></div>
+
+        <div class="box6" id="box6">
+            <div class="box7">
+                <div class="box8 animate-left">
+                    <span class="box9">Mukammal Yozuv San'ati</span>
+                    <h1 class="box10">Har Bir Harf Uchun Alohida Go'zallik</h1>
+                    <p class="box11">Silliq siyoh oqimi, qulay tutqich va zamonaviy dizayn asosida yaratilgan eng sara yozuv qurollari.</p>
+                    <div class="box12">
+                        <button class="box13" id="box13_btn1">To'plamni Ko'rish</button>
+                        <button class="box13 box13_sec" id="box13_btn2">Ruchka Yasash</button>
+                    </div>
+                </div>
+                <div class="box60 animate-right">
+                    <div class="box70">
+                        <img src="https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=800&q=80" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box14 animate-up" id="box14">
+            <div class="box15">
+                <h2 class="box16">Nima Uchun Bizni Tanlashadi?</h2>
+                <p class="box17">Sizning qulayligingiz va mukammal xatingiz uchun eng yuqori texnologiyalar.</p>
+            </div>
+            <div class="box18">
+                <div class="box19">
+                    <div class="box20"><i class="fa-solid fa-feather"></i></div>
+                    <h3 class="box21">O'ta Yengil</h3>
+                    <p class="box22">Uzoq vaqt yozganda qo'l charchamaydigan maxsus yengil qotishma korpus.</p>
+                </div>
+                <div class="box19">
+                    <div class="box20"><i class="fa-solid fa-droplet"></i></div>
+                    <h3 class="box21">Silliq Siyoh Oqimi</h3>
+                    <p class="box22">Tez quriydigan va qog'ozga dog' tushirmaydigan nemis texnologiyasidagi siyoh.</p>
+                </div>
+                <div class="box19">
+                    <div class="box20"><i class="fa-solid fa-hand-holding"></i></div>
+                    <h3 class="box21">Ergonomik Tutqich</h3>
+                    <p class="box22">Barmoqlar sirpanib ketmaydigan va qattiq turadigan maxsus qoplama.</p>
+                </div>
+                <div class="box19">
+                    <div class="box20"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3 class="box21">100% Chidamlilik</h3>
+                    <p class="box22">Uzoq yillar davomida o'z sifatini yo'qotmaydigan mustahkam materiallar.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box90 animate-up">
+            <div class="box91">
+                <div class="box92">
+                    <h3>50,000+</h3>
+                    <p>Sotilgan Ruchkalar</p>
+                </div>
+                <div class="box92">
+                    <h3>99%</h3>
+                    <p>Mamnun Mijozlar</p>
+                </div>
+                <div class="box92">
+                    <h3>45+</h3>
+                    <p>Eksport Davlatlari</p>
+                </div>
+                <div class="box92">
+                    <h3>24/7</h3>
+                    <p>Qo'llab-quvvatlash</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box23 animate-up" id="box23">
+            <div class="box24">
+                <h2 class="box25">Maxsus Ruchka Tovarlari</h2>
+                <p class="box26">O'zingizga yoqqan eng sara va eksklyuziv modellarimiz.</p>
+                
+                <div class="filter_buttons_wrap">
+                    <button class="filter_btn filter_active" data-filter="all">Hamma Ruchkalar</button>
+                    <button class="filter_btn" data-filter="gel">Geleviy Ruchkalar</button>
+                    <button class="filter_btn" data-filter="red">Qizil Ruchkalar</button>
+                </div>
+            </div>
+            <div class="box27">
+                <div class="box28" data-id="1" data-title="Royal Fountain Pen" data-price="129" data-category="red">
+                    <div class="box29">
+                        <img src="https://i.pinimg.com/736x/02/3d/b6/023db6d4522a3f4b452ad3c578d79fd6.jpg" alt="">
+                        <button class="wishlist_overlay_btn"><i class="fa-solid fa-heart"></i></button>
+                    </div>
+                    <h3 class="box30">Royal Fountain Pen</h3>
+                    <p class="box31">24k Oltin qoplama • Qizil model</p>
+                    <div class="box32">
+                        <span>$129</span>
+                        <button class="box33 add_to_cart_btn">Qo'shish</button>
+                    </div>
+                </div>
+                <div class="box28" data-id="2" data-title="Minimalist Rollerball" data-price="49" data-category="gel">
+                    <div class="box29">
+                        <img src="https://i.pinimg.com/736x/6b/af/09/6baf09381ef1c627ba06c4a8e341c851.jpg" alt="">
+                        <button class="wishlist_overlay_btn"><i class="fa-solid fa-heart"></i></button>
+                    </div>
+                    <h3 class="box30">Minimalist Rollerball</h3>
+                    <p class="box31">Mat qora • Geleviy ruchka</p>
+                    <div class="box32">
+                        <span>$49</span>
+                        <button class="box33 add_to_cart_btn">Qo'shish</button>
+                    </div>
+                </div>
+                <div class="box28" data-id="3" data-title="Executive Gel Pen" data-price="75" data-category="gel">
+                    <div class="box29">
+                        <img src="https://i.pinimg.com/1200x/8e/04/be/8e04be62954c0cbe14230b6e65c74bf6.jpg" alt="">
+                        <button class="wishlist_overlay_btn"><i class="fa-solid fa-heart"></i></button>
+                    </div>
+                    <h3 class="box30">Executive Gel Pen</h3>
+                    <p class="box31">Pushti oltin • Geleviy ruchka</p>
+                    <div class="box32">
+                        <span>$75</span>
+                        <button class="box33 add_to_cart_btn">Qo'shish</button>
+                    </div>
+                </div>
+                <div class="box28" data-id="4" data-title="Classic Brass Pen" data-price="95" data-category="red">
+                    <div class="box29">
+                        <img src="https://i.pinimg.com/736x/b3/42/ad/b342ad57b4b306eb43c7baa79a0e1d76.jpg" alt="">
+                        <button class="wishlist_overlay_btn"><i class="fa-solid fa-heart"></i></button>
+                    </div>
+                    <h3 class="box30">Classic Brass Pen</h3>
+                    <p class="box31">To'q Qizil • Bronza korpus</p>
+                    <div class="box32">
+                        <span>$95</span>
+                        <button class="box33 add_to_cart_btn">Qo'shish</button>
+                    </div>
+                </div>
+                <div class="box28" data-id="5" data-title="Titanium Stylus Pen" data-price="110" data-category="gel">
+                    <div class="box29">
+                        <img src="https://i.pinimg.com/736x/05/59/40/055940e3c2f8df73b9a07c772cacd8dc.jpg" alt="">
+                        <button class="wishlist_overlay_btn"><i class="fa-solid fa-heart"></i></button>
+                    </div>
+                    <h3 class="box30">Titanium Stylus Pen</h3>
+                    <p class="box31">Geleviy • Ekran uchun 2 in 1</p>
+                    <div class="box32">
+                        <span>$110</span>
+                        <button class="box33 add_to_cart_btn">Qo'shish</button>
+                    </div>
+                </div>
+                <div class="box28" data-id="6" data-title="Carbon Fiber Pro" data-price="150" data-category="red">
+                    <div class="box29">
+                        <img src="https://i.pinimg.com/736x/e7/08/fc/e708fcd3fec34810d2cecbe3a7f27e5b.jpg" alt="">
+                        <button class="wishlist_overlay_btn"><i class="fa-solid fa-heart"></i></button>
+                    </div>
+                    <h3 class="box30">Carbon Fiber Pro</h3>
+                    <p class="box31">Yorqin Qizil • Karbon seriya</p>
+                    <div class="box32">
+                        <span>$150</span>
+                        <button class="box33 add_to_cart_btn">Qo'shish</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box34 animate-up" id="box34">
+            <div class="box35">
+                <h2 class="box36">Ismingizni Yozdiring</h2>
+                <p class="box37">O'z ruchkangizga o'z ism yoki bosh harflaringizni o'yib yozdiring.</p>
+            </div>
+            <div class="box38">
+                <div class="box39">
+                    <div class="box40">
+                        <span id="box40_text">ISMINGIZ</span>
+                    </div>
+                </div>
+                <div class="box41">
+                    <h3 class="box42">Dizayn Sozlamalari</h3>
+                    <input type="text" id="box41_input" placeholder="Matn kiriting..." class="box43">
+                    <div class="box61">
+                        <button class="box62 box62_active" id="btn_color1"><i class="fa-solid fa-circle"></i> Metall</button>
+                        <button class="box62" id="btn_color2"><i class="fa-solid fa-circle"></i> Oltin</button>
+                        <button class="box62" id="btn_color3"><i class="fa-solid fa-circle"></i> Kumush</button>
+                    </div>
+                    <button class="box13" id="box13_custom">Buyurtma Berish</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="box77 animate-up" id="box77">
+            <div class="box78">
+                <h2 class="box79">Mijozlarimiz Fikri</h2>
+                <p class="box80">Bizning ruchkalarimiz haqida mijozlar nima deydi?</p>
+            </div>
+            <div class="box81">
+                <div class="box82">
+                    <div class="box83">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="box84">"Ushbu ruchkani olganimdan ber yozish jarayoni men uchun haqiqiy zavqga aylandi. Siyohi va og'irligi juda ideal!"</p>
+                    <h4>Jasur Karimov</h4>
+                    <span>Dasturchi</span>
+                </div>
+                <div class="box82">
+                    <div class="box83">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="box84">"Ismim o'yilgan ruchka sovg'a sifatli kelganida juda xursand bo'ldim. Premium sifat va chiroyli qadoqlash."</p>
+                    <h4>Malika Ahmedova</h4>
+                    <span>Dizayner</span>
+                </div>
+                <div class="box82">
+                    <div class="box83">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="box84">"Ofisimiz xodimlari uchun barchasiga maxsus logo bilan buyurtma berdik. Yetkazib berish o'z vaqtida bo'ldi!"</p>
+                    <h4>Sardor Raximov</h4>
+                    <span>Kompaniya Rahbari</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box85 animate-up" id="box85">
+            <div class="box86">
+                <h2 class="box87">Tez-tez Beriladigan Savollar</h2>
+                <p class="box88">Qo'shimcha ma'lumot va savollaringizga javoblar.</p>
+            </div>
+            <div class="box89">
+                <div class="faq_item">
+                    <div class="faq_question">
+                        <span>Yetkazib berish qancha vaqt oladi?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq_answer">
+                        <p>Toshkent shahri bo'ylab 24 soat ichida, viloyatlarga esa 2-3 ish kuni davomida bepul yetkazib beriladi.</p>
+                    </div>
+                </div>
+                <div class="faq_item">
+                    <div class="faq_question">
+                        <span>Ism o'yib yozish xizmati tekinmi?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq_answer">
+                        <p>Ha, barcha ruchka modellarimizga ismingiz yoki istalgan qisqa matningizni o'yib yozish butunlay bepul.</p>
+                    </div>
+                </div>
+                <div class="faq_item">
+                    <div class="faq_question">
+                        <span>Kafolat beriladimi?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq_answer">
+                        <p>Barcha ruchka va aksessuarlarimiz uchun 1 yillik rasmiy ishlab chiqaruvchi kafolati mavjud.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box44 animate-up" id="box44">
+            <div class="box45">
+                <h2 class="box46">Biz bilan Bog'laning</h2>
+                <p class="box47">Savollaringiz bormi yoki maxsus buyurtma bermoqchimisiz? Bizga yozing.</p>
+            </div>
+            <div class="box48">
+                <div class="box49">
+                    <input type="text" placeholder="Ismingiz" class="box50">
+                    <input type="email" placeholder="Elektron pochtangiz" class="box50">
+                    <textarea placeholder="Xabaringiz" class="box51" rows="5"></textarea>
+                    <button class="box13" id="box13_submit">Xabarni Yuborish</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="box52">
+            <div class="box53">
+                <div class="box54">
+                    <div class="box3">
+                        <i class="fa-solid fa-pen-nib"></i>
+                        <span>PEN WORLD</span>
+                    </div>
+                    <p class="box55">Kelajak avlod ijodkorlari uchun zamonaviy va nafis yozuv qurollarini yaratamiz.</p>
+                    <div class="footer_contact_info">
+                        <span><i class="fa-solid fa-phone"></i> +998 33 275 58 50</span>
+                        <span><i class="fa-solid fa-envelope"></i> aakhathanov@gmail.com</span>
+                    </div>
+                </div>
+                <div class="box56">
+                    <h4>Tezkor Havolalar</h4>
+                    <a href="#box6">Bosh sahifa</a>
+                    <a href="#box14">Afzalliklar</a>
+                    <a href="#box23">Mahsulotlar</a>
+                    <a href="#box34">Dizayn</a>
+                    <a href="#box77">Mijozlar</a>
+                    <a href="#box85">Savollar</a>
+                </div>
+                <div class="box57">
+                    <h4>Ijtimoiy Tarmoqlar</h4>
+                    <p class="footer_sub_text">Bizni kuzatib boring va yangi chegirmalardan xabardor bo'ling.</p>
+                    <div class="box58">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="box59">
+                <p>© 2026 Akhathanov.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
